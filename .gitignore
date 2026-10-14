@@ -1,0 +1,31 @@
+.venv/
+__pycache__/
+*.py[cod]
+.env
+*.edf
+*.zip
+cache/
+checkpoints/
+outputs/
+*.pt
+*.pth
+*.ckpt
+
+# EEG datasets and generated preprocessing
+compact_kaggle_dataset.zip
+*.npy
+*.npz
+*.edf
+*.zip
+
+# Trained model checkpoints
+*.pt
+*.pth
+*.ckpt
+
+# Generated data and temporary files
+models/final_chbmit_v2/
+models/run5_preproc_cache/
+models/pytest-tmp/
+scratch/
+work/

@@ -1,0 +1,86 @@
+{
+  "test": {
+    "patients": [
+      "chb13",
+      "chb02",
+      "chb19",
+      "chb01",
+      "chb10",
+      "chb06",
+      "chb03"
+    ],
+    "recordings": 196,
+    "seizure_recordings": 41,
+    "non_seizure_recordings": 155,
+    "seizure_events": 47,
+    "duration_hours": 258.50805555555553,
+    "seizure_duration_min": 38.199999999999996,
+    "total_windows": 465115,
+    "seizure_windows_any": 1215,
+    "non_seizure_windows_any": 463900,
+    "seizure_windows_50pct": 1171,
+    "non_seizure_windows_50pct": 463944
+  },
+  "train": {
+    "patients": [
+      "chb11",
+      "chb09",
+      "chb21",
+      "chb22",
+      "chb08",
+      "chb20",
+      "chb17",
+      "chb14",
+      "chb18",
+      "chb23",
+      "chb04"
+    ],
+    "recordings": 299,
+    "seizure_recordings": 46,
+    "non_seizure_recordings": 253,
+    "seizure_events": 55,
+    "duration_hours": 477.36833333333334,
+    "seizure_duration_min": 71.31666666666668,
+    "total_windows": 858953,
+    "seizure_windows_any": 2227,
+    "non_seizure_windows_any": 856726,
+    "seizure_windows_50pct": 2162,
+    "non_seizure_windows_50pct": 856791
+  },
+  "val": {
+    "patients": [
+      "chb05",
+      "chb07",
+      "chb16"
+    ],
+    "recordings": 75,
+    "seizure_recordings": 13,
+    "non_seizure_recordings": 62,
+    "seizure_events": 16,
+    "duration_hours": 123.055,
+    "seizure_duration_min": 15.866666666666665,
+    "total_windows": 221423,
+    "seizure_windows_any": 498,
+    "non_seizure_windows_any": 220925,
+    "seizure_windows_50pct": 486,
+    "non_seizure_windows_50pct": 220937
+  },
+  "excluded_patients": {
+    "patients": [
+      "chb15",
+      "chb24",
+      "chb12"
+    ],
+    "recordings": 82,
+    "seizure_recordings": 36,
+    "non_seizure_recordings": 46,
+    "seizure_events": 63,
+    "duration_hours": 80.99361111111111,
+    "seizure_duration_min": 58.199999999999996,
+    "total_windows": 145704,
+    "seizure_windows_any": 1840,
+    "non_seizure_windows_any": 143864,
+    "seizure_windows_50pct": 1778,
+    "non_seizure_windows_50pct": 143926
+  }
+}
